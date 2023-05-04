@@ -52,4 +52,4 @@ Now Run ***terraform apply*** <-> This will create the whole infrastructure over
 
 
 
-The provided configuration will help to create scalable and fault tolerant infrastructure
+The provided configuration will help to create scalable and fault tolerant infrastructure.
