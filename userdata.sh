@@ -18,6 +18,6 @@ sudo systemctl start mysql.service
 sudo mysql -u root -e "CREATE DATABASE mediawiki;"
 sudo mysql -u root -e "CREATE USER 'mediawikiuser'@'localhost' IDENTIFIED BY 'Shreya@2698';"
 sudo mysql -u root -e "GRANT ALL PRIVILEGES ON mediawiki.* TO 'mediawikiuser'@'localhost';"
-systemctl status mysql.service
+
 # Restart Apache server
 sudo systemctl restart apache2
